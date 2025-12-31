@@ -202,67 +202,6 @@
 		(layer "F.Fab")
 		(uuid "9c4d336e-48c1-4bda-bdd9-a33d276b1280")
 	)
-	(fp_poly
-		(pts
-			(xy -2.819567 -1.825961) (xy -2.852039 -1.858433) (xy -2.897961 -1.858433) (xy -2.930433 -1.825961)
-			(xy -2.930433 -1.780039) (xy -2.897961 -1.747567) (xy -2.852039 -1.747567) (xy -2.819567 -1.780039)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "F.Fab")
-		(uuid "dc6928b7-9ade-4c37-a36f-7cd0f62a0692")
-	)
-	(fp_poly
-		(pts
-			(xy -2.575 0.45) (xy -2.375 0.45) (xy -2.375 2.45) (xy -2.575 2.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "User.1")
-		(uuid "80c8a3a0-feec-4d6a-a7f0-10ccfee64d4c")
-	)
-	(fp_poly
-		(pts
-			(xy -0.725 -1.803) (xy -0.525 -1.803) (xy -0.525 -0.803) (xy -0.725 -0.803)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "User.1")
-		(uuid "1d7512a2-58aa-4ae2-a934-1f491f4f5aa1")
-	)
-	(fp_poly
-		(pts
-			(xy 0.525 -1.803) (xy 0.725 -1.803) (xy 0.725 -0.803) (xy 0.525 -0.803)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "User.1")
-		(uuid "46c14c12-3165-4023-8584-36c22552310c")
-	)
-	(fp_poly
-		(pts
-			(xy 2.375 0.45) (xy 2.575 0.45) (xy 2.575 2.45) (xy 2.375 2.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "User.1")
-		(uuid "2462dfe6-b779-49ed-8938-f1b24448239d")
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
@@ -274,32 +213,28 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" smd rect
 		(at -0.625 -1.45)
 		(size 0.6 1.7)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d9be067b-961e-43c4-9fa1-40bbc23db15d")
 	)
-	(pad "2" thru_hole rect
+	(pad "2" smd rect
 		(at 0.625 -1.45)
 		(size 0.6 1.7)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "23716e04-cf4c-4ba0-a4e2-3d8e7d6c0895")
 	)
-	(pad "3" thru_hole rect
+	(pad "3" smd rect
 		(at -2.475 1.45)
 		(size 1 2.8)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4626d506-2cab-4b56-a60c-36e438563847")
 	)
-	(pad "4" thru_hole rect
+	(pad "4" smd rect
 		(at 2.475 1.45)
 		(size 1 2.8)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f346df09-fd80-4045-b534-bee92a127908")
 	)
 	(embedded_fonts no)
